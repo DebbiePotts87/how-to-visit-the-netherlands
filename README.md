@@ -1,7 +1,7 @@
 # How to Vist The Netherlands
 ---
 # User Experience (UX)
----
+
 * ## User Stories
     * First time visitor goals
         1. Gain a basic background on the country
@@ -34,12 +34,13 @@
     * Tablet Wireframe - 
     * Desktop Wireframe -
 
-# Features
 ---
+# Features
+
 * Responsive on all devices
 
-# Technology Used
 ---
+# Technology Used
 
 ## Languages Used
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -55,8 +56,9 @@
 4. [Github](https://github.com/)
     * Github is used to store the code
 
-# Testing
 ---
+# Testing
+
 The W3C Markup Validator and the W3C CSS Validator were used to validate the code and ensure that there were no syntax errors in the project.
 
 * [W3C Markup Validator](https://validator.w3.org/)
