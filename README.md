@@ -30,9 +30,9 @@
         *
 
 * ## Wireframes
-    * Mobile Wireframe - 
-    * Tablet Wireframe - 
-    * Desktop Wireframe -
+    * Mobile Wireframe - [Link](https://imgur.com/a/jJWagMW)
+    * Tablet Wireframe - [Link](https://imgur.com/a/DBMiehy)
+    * Desktop Wireframe - [Link](https://imgur.com/a/UZnnQt6)
 
 ---
 # Features
