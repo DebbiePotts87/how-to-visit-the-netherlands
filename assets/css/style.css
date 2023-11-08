@@ -52,6 +52,36 @@
     text-transform: uppercase;
 }
 
+/*------------------------------Footer------------------------------*/
+
+.footer-background {
+    background-color: black;
+}
+
+#social-media-links li {
+    display: inline;
+}
+
+.social-media ul li {
+    list-style-type: none;
+    border: none;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.contact-us-footer {
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.contact-us-footer-link {
+    float: right;
+    list-style-type: none;
+}
+
 /*------------------------------Media Queries------------------------------*/
 
 @media screen and (max-width: 768px) {

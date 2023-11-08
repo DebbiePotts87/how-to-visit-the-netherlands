@@ -82,4 +82,10 @@ I wanted to impliment a Bootstrap navigation snippit which would ensure the navi
     * The hamburger icon was placed to the left of its container so I used google dev tools to inspect the area and find the section of Bootstrap which needed overiding.
     * The hamburger menu icon was defaulted to black, to change this to white I had to change the Bootstap nav bar theme to dark and then overide the background colour.
 
+---
+# Credits
+
+* Navigation section
+    * I used the Bootstrap documentation as a guide for making the responsive navigation bar, mainly the button.
+
 
