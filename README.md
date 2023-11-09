@@ -23,9 +23,9 @@
 
 * ## Design
     * Colour Scheme
-        *
+        * The main colour theme is orange, this is the Dutch colour. I used [HTML Color Codes](https://htmlcolorcodes.com/) to create a shade of orange which was user friendly but also sticking to the theme
     * Typography
-        *
+        * The font used for the site was imported from Google Fonts. I chose Roboto Condensed for a modern, easy to read style with Sans-serif as a fallback.
     * Imagery
         *
 
@@ -63,7 +63,13 @@
 6. [Font Awesome](https://fontawesome.com/icons)
     * Font Awesome was used to add styling to the site through icons
 7. [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)
-    * Chrome Dev Tools was used to debug minor issues and as an aid when styling the website    
+    * Chrome Dev Tools was used to debug minor issues and as an aid when styling the website
+8. [Hex Color Codes](https://htmlcolorcodes.com/)
+    * Used to provide color codes for the website
+9. [Google Fonts](https://fonts.google.com/)
+    * Used for the typography for a modern but easy to read design
+10. [RGBA Color Picker](https://rgbacolorpicker.com/)
+    * RGBA Color Picker was used to convert the orange hex code to allow me to change the opicity of the header and footer
 
 ---
 # Testing
@@ -77,7 +83,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 # Bugs
 
 ### Header Section
-I wanted to impliment a Bootstrap navigation snippit which would ensure the navigation bar is responisve for mobile and tablet and also due to the city name sizes the hamburger menu suits smaller devices better as it looks much cleaner and is far more user friendly. 
+* I wanted to impliment a Bootstrap navigation snippit which would ensure the navigation bar is responisve for mobile and tablet and also due to the city name sizes the hamburger menu suits smaller devices better as it looks much cleaner and is far more user friendly. 
     * Bootstrap navigation templates fills the full width of the screen so I customised their recommended code snippet to suit the needs of this website.
     * The hamburger icon was placed to the left of its container so I used google dev tools to inspect the area and find the section of Bootstrap which needed overiding.
     * The hamburger menu icon was defaulted to black, to change this to white I had to change the Bootstap nav bar theme to dark and then overide the background colour.
@@ -85,7 +91,23 @@ I wanted to impliment a Bootstrap navigation snippit which would ensure the navi
 ---
 # Credits
 
+## Code
+
 * Navigation section
-    * I used the Bootstrap documentation as a guide for making the responsive navigation bar, mainly the button.
+    * [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) as a guide for making the responsive navigation bar, mainly the button
+
+* [W3 Schools](https://www.w3schools.com/) was used throughout the project to trouble shoot
+
+* [Stack Overflow](https://stackoverflow.com/)
+    * The forum was used throughout the project to trouble shoot
+
+## Content
+
+* All content was written by the developer
+
+## Media
+
+* [Wallpaper Abyss](https://wall.alphacoders.com/tag/netherlands-wallpapers)
+    * Wallpaper Abyss was used for the background images
 
 

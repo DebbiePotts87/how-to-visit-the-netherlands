@@ -1,23 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Oswald&family=Permanent+Marker&family=Roboto+Condensed&family=Roboto:wght@100;300;400;500&family=Space+Mono&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*------------------------------Background Images------------------------------*/
+
+#home-page {
+    background-image: url(../images/homepage-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    /* Taken from W3 Schools */
+}
+
 /*------------------------------Header------------------------------*/
+header {
+    background-color: rgba(209, 63, 32, 0.65);
+    height: 165px;
+}
+
 .header-title {
     text-align: center;
     color: white;
 }
 
 .page-header {
-    /* --- add image here
-    background: url("../images/home-page-bike.jpg") center center / cover no-repeat fixed;
-    --------*/
-    background-color: black;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 50px;
+    justify-content: center;
 }
 
 .page-navigation-box {
@@ -32,6 +47,7 @@
 .nav-text {
     color: white;
     font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .menu-button {
@@ -40,10 +56,23 @@
 
 .how-to-title {
     font-size: 25px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .country-title {
     font-size: 35px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#header-image {
+    top:10px;
+    position: relative;
+}
+
+#header-image img {
+    width: 100%;
+    margin: none;
+    padding: none;
 }
 
 /*------------------------------Padding/Margins/Text------------------------------*/
@@ -54,12 +83,27 @@
 
 /*------------------------------Footer------------------------------*/
 
-.footer-background {
-    background-color: black;
+footer {
+    position: fixed;
+    padding-left: 0;
+    padding-right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(209, 63, 32, 0.65)
+}
+
+#social-media-links li a {
+    text-decoration: none;
+    color: white;
 }
 
 #social-media-links li {
     display: inline;
+}
+
+.social-media {
+    padding-right: 30px;
+    padding-top: 10px;
 }
 
 .social-media ul li {
@@ -71,10 +115,14 @@
     font-size: 25px;
 }
 
-.contact-us-footer {
+#contact-us-footer {
     padding-right: 30px;
     padding-top: 10px;
     font-size: 25px;
+}
+
+#contact-us-footer li a {
+    color: white;
 }
 
 .contact-us-footer-link {
@@ -84,20 +132,37 @@
 
 /*------------------------------Media Queries------------------------------*/
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .how-to-title {
         font-size: 15px;
     }
     .country-title {
         font-size: 25px;
+    }
+
+    .social-media ul li {
+        padding: 5px;
+        font-size: 18px;
+    }
+    #contact-us-footer {
+        font-size: 18px;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     .how-to-title {
-        font-size: 15px;
+        font-size: 10px;
     }
     .country-title {
-        font-size: 25px;
+        font-size: 16px;
+    }
+
+    .social-media ul li {
+        padding: 2px;
+        font-size: 16px;
+    }
+
+    #contact-us-footer {
+        font-size: 16px;
     }
 }
