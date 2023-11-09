@@ -147,6 +147,11 @@ footer {
     #contact-us-footer {
         font-size: 18px;
     }
+
+    #navbarNav {
+        background-color: rgba(209, 63, 32, 0.65);
+    }
+    
 }
 
 @media only screen and (max-width: 576px) {
@@ -165,4 +170,9 @@ footer {
     #contact-us-footer {
         font-size: 16px;
     }
+
+    #navbarNav {
+        background-color: rgba(209, 63, 32, 0.65);
+    }
+    
 }
