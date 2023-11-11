@@ -108,6 +108,9 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 ## Media
 
 * [Wallpaper Abyss](https://wall.alphacoders.com/tag/netherlands-wallpapers)
-    * Wallpaper Abyss was used for the background images
+    * Wallpaper Abyss was used for the background image
+
+* [Pit YouTube Channel](https://www.youtube.com/watch?v=aFJ1fPIhJAY)
+    * 4k cinematic video used on the homepage
 
 

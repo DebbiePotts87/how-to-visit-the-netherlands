@@ -8,14 +8,7 @@
 
 /*------------------------------Background Images------------------------------*/
 
-#home-page {
-    background-image: url(../images/homepage-background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    /* Taken from W3 Schools */
-}
+
 
 /*------------------------------Header------------------------------*/
 header {
@@ -81,10 +74,39 @@ header {
     text-transform: uppercase;
 }
 
+#about-the-netherlands-surround {
+    border-color: rgba(209, 63, 32, 0.65);
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.about-the-netherlands {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+}
+
+#netherlands-video {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#video-source-credit {
+    font-family: "Roborto Condensed", sans-serif;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+}
+
 /*------------------------------Footer------------------------------*/
 
 footer {
-    position: fixed;
+    position: relative;
     padding-left: 0;
     padding-right: 0;
     bottom: 0;
