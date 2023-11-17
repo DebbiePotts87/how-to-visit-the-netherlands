@@ -88,6 +88,9 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
     * The hamburger icon was placed to the left of its container so I used google dev tools to inspect the area and find the section of Bootstrap which needed overiding.
     * The hamburger menu icon was defaulted to black, to change this to white I had to change the Bootstap nav bar theme to dark and then overide the background colour.
 
+### Footer Section
+* I styled the footer to stick to the bottom of the page and be responsive to all devices sizes. Once I added my main content using Bootstrap grid the footer moved up the page and was stuck under the Bootstrap columns. To fix this issue I refered to 'CSS Secrets. Better Solutions to Everyday Web Design Problems' by Lea Verou (Page 290 - 291)
+
 ---
 # Credits
 
@@ -100,6 +103,9 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 
 * [Stack Overflow](https://stackoverflow.com/)
     * The forum was used throughout the project to trouble shoot
+
+* [CSS Secrets. Better Solutions to Everyday Web Design Problems by Lea Verou](https://www.oreilly.com/library/view/css-secrets/9781449372736/)
+    * This book was refered to for support during my project
 
 ## Content
 
