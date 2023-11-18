@@ -12,7 +12,7 @@
 
 /*------------------------------Header------------------------------*/
 header {
-    background-color: rgba(209, 63, 32, 0.65);
+    background-color: #F17819;
     height: 165px;
 }
 
@@ -57,23 +57,18 @@ header {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-#header-image {
-    top:10px;
-    position: relative;
-}
-
-#header-image img {
-    width: 100%;
-    margin: none;
-    padding: none;
-}
-
 /*------------------------------Padding/Margins/Text------------------------------*/
 
-body {
+html body {
     display: flex;
     flex-flow: column;
     min-height: 100vh;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #212020;
 }
 
 main {
@@ -85,7 +80,7 @@ main {
 }
 
 #about-the-netherlands-surround {
-    border-color: rgba(209, 63, 32, 0.65);
+    border-color: #F17819;
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.45);
     padding-top:20px;
@@ -100,6 +95,33 @@ main {
     text-align: center;
 }
 
+#why-wear-around-surround {
+    border-color: #F17819;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.why-wear-orange {
+        color: white;
+        font-family: "Roboto Condensed", sans-serif;
+        text-align: center;
+    }
+
+.why-were-orange-links {
+    list-style-type: none;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.why-were-orange-links li a {
+    color: white;
+    text-decoration: none;
+}
+
 #netherlands-video {
     margin-top: 30px;
     margin-left: 20px;
@@ -110,15 +132,66 @@ main {
     text-decoration: none;
     font-style: italic;
     font-size: 10px;
+    color: white;
+}
+
+.rotterdam-page-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: "Roborto Condensed", sans-serif;
+}
+
+#where-to-eat-rotterdam {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roborto Condensed", sans-serif;
+}
+
+#where-to-eat-rotterdam a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#what-not-to-miss-rotterdam {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roborto Condensed", sans-serif;
+}
+
+#what-not-to-miss-rotterdam a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#where-to-visit-rotterdam {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roborto Condensed", sans-serif;
+}
+
+#where-to-visit-rotterdam a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 /*------------------------------Footer------------------------------*/
 
 footer {
     min-height: 60px;
-    margin: 0;
-    background-color: rgba(209, 63, 32, 0.65)
+    margin-top: 30px;
+    background-color: #F17819;
 }
 
 #social-media-links li a {
@@ -178,7 +251,7 @@ footer {
     }
 
     #navbarNav {
-        background-color: rgba(209, 63, 32, 0.65);
+        background-color: #F17819;
     }
     
 }
@@ -201,7 +274,7 @@ footer {
     }
 
     #navbarNav {
-        background-color: rgba(209, 63, 32, 0.65);
+        background-color: #F17819;
     }
     
 }
