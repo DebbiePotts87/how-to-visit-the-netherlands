@@ -221,6 +221,21 @@ main {
     margin-bottom: 10px; 
 }
 
+.rotterdam-map-frame {
+    overflow: hidden;
+    padding-bottom: 25%;
+    position: relative;
+    height: 0;
+}
+
+.rotterdam-map-frame iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+ 
 /*------------------------------Footer------------------------------*/
 
 footer {

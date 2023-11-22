@@ -107,6 +107,9 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 * [CSS Secrets. Better Solutions to Everyday Web Design Problems by Lea Verou](https://www.oreilly.com/library/view/css-secrets/9781449372736/)
     * This book was refered to for support during my project
 
+* [Duda](https://blog.duda.co/responsive-google-maps-for-your-website)
+    * This blog was used to help with the responsive design of Google maps
+
 ## Content
 
 * All content was written by the developer
@@ -118,5 +121,8 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 
 * [Pit YouTube Channel](https://www.youtube.com/watch?v=aFJ1fPIhJAY)
     * 4k cinematic video used on the homepage
+
+* [Google Maps](https://www.google.com/maps)
+    * Used to show a city map on each city page
 
 
