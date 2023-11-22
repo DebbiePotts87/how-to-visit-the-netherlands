@@ -141,6 +141,8 @@ main {
     color: white;
 }
 
+/*----Rotterdam----*/
+
 .rotterdam-page-title {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -235,7 +237,201 @@ main {
     width: 100%;
     position: absolute;
 }
+
+/*----Utrecht----*/
  
+.utrecht-page-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#where-to-eat-utrecht {
+    border-color: #F17819;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#where-to-eat-utrecht a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#what-not-to-miss-utrecht {
+    border-color: #F17819;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#what-not-to-miss-utrecht a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#where-to-visit-utrecht {
+    border-color: #F17819;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#where-to-visit-utrecht a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#utrecht-map {
+    margin-top: 30px;
+    margin-bottom: 10px; 
+}
+
+.utrecht-map-frame {
+    overflow: hidden;
+    padding-bottom: 25%;
+    position: relative;
+    height: 0;
+}
+
+.utrecht-map-frame iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*----Dordrecht----*/
+ 
+.dordrecht-page-title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#where-to-eat-dordrecht {
+    border-color: #F17819;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#where-to-eat-dordrecht a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#what-not-to-miss-dordrecht {
+    border-color: #F17819;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#what-not-to-miss-dordrecht a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#where-to-visit-dordrecht {
+    border-color: #F17819;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#where-to-visit-dordrecht a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#dordrecht-map {
+    margin-top: 30px;
+    margin-bottom: 10px; 
+}
+
+.dordrecht-map-frame {
+    overflow: hidden;
+    padding-bottom: 25%;
+    position: relative;
+    height: 0;
+}
+
+.dordrecht-map-frame iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
 /*------------------------------Footer------------------------------*/
 
 footer {
