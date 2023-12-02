@@ -79,6 +79,10 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 * [W3C Markup Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://validator.w3.org/)
 
+* Google Dev Tools was used to check responsive design
+    * Form input was not responsive
+        * [W3 Schools](https://www.w3schools.com/howto/howto_css_responsive_form.asp) guide was used to fix this
+
 ---
 # Bugs
 
