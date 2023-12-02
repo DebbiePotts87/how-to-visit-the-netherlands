@@ -14,6 +14,7 @@
 header {
     background-color: #ff6000;
     height: 165px;
+    z-index: 2;
 }
 
 .header-title {
@@ -480,6 +481,8 @@ input[type=text], select, textarea {
     border-radius: 4px;
     resize: vertical;
   }
+
+  /*--code snippet taken from w3 schools--*/
 
 .contact-us-form fieldset {
     border: solid;
