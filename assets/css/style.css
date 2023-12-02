@@ -497,6 +497,78 @@ fieldset legend {
     background-color: #5AC000;
 }
 
+/*----Gallery----*/
+
+#rotterdam-gallery {
+    margin-top: 40px;
+}
+
+#rotterdam-gallery h1 {
+    color: #ffe6c7;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#rotterdam-gallery h5 {
+    color: #ffe6c7;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#rotterdam-gallery p {
+    color: #ffe6c7;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#utrecht-gallery {
+    margin-top: 40px;
+}
+
+#utrecht-gallery h1 {
+    color: #ffe6c7;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#utrecht-gallery h5 {
+    color: #ffe6c7;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#utrecht-gallery p {
+    color: #ffe6c7;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#dordrecht-gallery {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#dordrecht-gallery h1 {
+    color: #ffe6c7;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#dordrecht-gallery h5 {
+    color: #ffe6c7;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#dordrecht-gallery p {
+    color: #ffe6c7;
+    background-color: rgba(0, 0, 0, 0.60);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
 /*----Submit Page----*/
 
 #submit-page-buttons a {
