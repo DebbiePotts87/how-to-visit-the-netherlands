@@ -97,7 +97,10 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 ## Code
 
 * Navigation section
-    * [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) as a guide for making the responsive navigation bar, mainly the button
+    * [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) as a guide for making the responsive navigation bar
+
+* Carousel (Gallery Page)
+    * [Bootstrap 5](https://getbootstrap.com/docs/5.3/components/carousel/) was used for the gallery page
 
 * [W3 Schools](https://www.w3schools.com/) was used throughout the project to trouble shoot
 
