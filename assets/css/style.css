@@ -79,6 +79,11 @@ main {
     text-transform: uppercase;
 }
 
+#youtube-video-homepage {
+    width: 480px;
+    height: 270px;
+}
+
 #about-the-netherlands-surround {
     border-color: #ff6000;
     border-style: solid;

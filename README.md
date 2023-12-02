@@ -74,7 +74,7 @@
 ---
 # Testing
 
-The W3C Markup Validator and the W3C CSS Validator were used to validate the code and ensure that there were no syntax errors in the project.
+The W3C Markup Validator and the W3C CSS Validator were used to validate the code and ensure that there were no syntax errors in the project. No errors were found.
 
 * [W3C Markup Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://validator.w3.org/)
