@@ -31,18 +31,19 @@ header {
     padding-right: 20px;
 }
 
+#navbarNav {
+    background-color: #ff6000;
+    z-index: 2;
+}
+
 .page-navigation {
     padding-right: 20px;
 }
 
 .nav-text {
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-family: "Roboto Condensed", sans-serif;
-}
-
-.menu-button {
-    color: black;
 }
 
 .how-to-title {
@@ -86,13 +87,14 @@ main {
     position:absolute;
 }
 
+/*--Snipped taken from adobe forum--*/
+
 #about-the-netherlands-surround {
     border-color: #ff6000;
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
     padding: 20px;
-    margin-right: 20px;
     margin-top: 30px;
 }
 
@@ -131,7 +133,6 @@ main {
 
 #netherlands-video {
     margin-top: 30px;
-    margin-left: 20px;
 }
 
 #video-source-credit {
@@ -669,6 +670,20 @@ footer {
 
 /*------------------------------Media Queries------------------------------*/
 
+@media only screen and (max-width: 1200px) {
+    
+    .page-header {
+        padding: 25px;
+    }
+    
+    .how-to-title {
+        font-size: 20px;
+    }
+    .country-title {
+        font-size: 30px;
+    }
+}
+
 @media only screen and (max-width: 576px) {
     .how-to-title {
         font-size: 15px;
@@ -683,10 +698,6 @@ footer {
     }
     #contact-us-footer {
         font-size: 18px;
-    }
-
-    #navbarNav {
-        background-color: #ff6000;
     }
     
 }
@@ -706,10 +717,6 @@ footer {
 
     #contact-us-footer {
         font-size: 16px;
-    }
-
-    #navbarNav {
-        background-color: #ff6000;
     }
     
 }

@@ -104,9 +104,10 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
     * [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) as a guide for making the responsive navigation bar
 
 * Carousel (Gallery Page)
-    * [Bootstrap 5](https://getbootstrap.com/docs/5.3/components/carousel/) was used for the gallery page
+* [Bootstrap 5](https://getbootstrap.com/docs/5.3/components/carousel/) was used for the gallery page
 
-* [W3 Schools](https://www.w3schools.com/) was used throughout the project to trouble shoot
+* [W3 Schools](https://www.w3schools.com/)
+    * Used throughout the project to trouble shoot
 
 * [Stack Overflow](https://stackoverflow.com/)
     * The forum was used throughout the project to trouble shoot
@@ -116,6 +117,9 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 
 * [Duda](https://blog.duda.co/responsive-google-maps-for-your-website)
     * This blog was used to help with the responsive design of Google maps
+
+* [Adobe Community Forum](https://community.adobe.com/t5/dreamweaver-discussions/setting-embedded-youtube-videos-to-fill-the-screen-on-any-resolution-with-media-queries/m-p/10459087)
+    * Used for CSS snippet to make Youtube iframe responsive
 
 ## Content
 
