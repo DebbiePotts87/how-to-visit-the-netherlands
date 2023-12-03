@@ -688,6 +688,10 @@ footer {
         background-color: #ff6000;
     }
     
+    #netherlands-video {
+        display: none;
+    }
+    
 }
 
 @media only screen and (max-width: 395px) {
@@ -711,4 +715,7 @@ footer {
         background-color: #ff6000;
     }
     
+    #netherlands-video {
+        display: none;
+    }
 }
