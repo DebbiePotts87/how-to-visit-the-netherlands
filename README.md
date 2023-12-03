@@ -100,13 +100,20 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 100 Best Practices
         * 100 SEO
     * contact.html
-        * 91 performance
-        * 92 Accessibility
+        * 97 performance
+        * 93 Accessibility
         * 100 Best Practices
         * 100 SEO
 
 ---
 # Bugs
+
+## Known Bugs
+
+### Gallery Page
+* The performance score of 71 is low, further development of this is required.[dotcom-tools](https://www.dotcom-tools.com/website-speed-test) was used to test the loading speed. The average load time is 1.33 seconds, this feels acceptable until the next update.
+
+## Fixed Bugs
 
 ### Header Section
 * I wanted to impliment a Bootstrap navigation snippit which would ensure the navigation bar is responisve for mobile and tablet and also due to the city name sizes the hamburger menu suits smaller devices better as it looks much cleaner and is far more user friendly. 

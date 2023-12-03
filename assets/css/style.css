@@ -11,6 +11,7 @@
 header {
     background-color: #ff6000;
     z-index: 2;
+    max-height: 140px;
 }
 
 .header-title {
