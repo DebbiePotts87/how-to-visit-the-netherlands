@@ -95,6 +95,11 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 95 Best Practices
         * 100 SEO
     * gallery.html
+        * 71 performance
+        * 92 Accessibility
+        * 100 Best Practices
+        * 100 SEO
+    * contact.html
         * 91 performance
         * 92 Accessibility
         * 100 Best Practices
