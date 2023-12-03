@@ -83,6 +83,23 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
     * Form input was not responsive
         * [W3 Schools](https://www.w3schools.com/howto/howto_css_responsive_form.asp) guide was used to fix this
 
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to check performance
+    * index.html
+        * 95 performance
+        * 90 Accessibility
+        * 95 Best Practices
+        * 100 SEO
+    * rotterdam.html, utrecht.html and dordretcht.html
+        * 98 performance
+        * 90 Accessibility
+        * 95 Best Practices
+        * 100 SEO
+    * gallery.html
+        * 91 performance
+        * 92 Accessibility
+        * 100 Best Practices
+        * 100 SEO
+
 ---
 # Bugs
 
