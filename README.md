@@ -105,6 +105,19 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 100 Best Practices
         * 100 SEO
 
+* Devices used to test
+    * Desktop/Laptop
+        * 16" laptop
+        * 32" widescreen monitor
+
+    * Tablet Devices
+        * Samsung Galaxy Tab S6
+        * Samsung Galaxy Tab A8
+
+    * Mobile Devices
+        * Samsung Galaxy S21FE
+        * Samsung Galaxy S23 Ultra
+
 ---
 # Bugs
 
