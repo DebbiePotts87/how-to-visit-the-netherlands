@@ -69,9 +69,21 @@ main {
     text-transform: uppercase;
 }
 
-#youtube-video-homepage {
-    width: 480px;
-    height: 270px;
+/*----Index----*/
+
+.youtube-video-homepage {
+    overflow:hidden;    
+    padding-bottom:56.25%;    
+    position:relative;    
+    height:0;    
+}
+
+.youtube-video-homepage iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 #about-the-netherlands-surround {
@@ -79,8 +91,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-right: 20px;
     margin-top: 30px;
 }
@@ -96,8 +107,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
 }
 
@@ -152,8 +162,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -174,8 +183,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -196,8 +204,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -249,8 +256,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -271,8 +277,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -293,8 +298,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -346,8 +350,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -368,8 +371,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -390,8 +392,7 @@ main {
     border-style: solid;
     background-color: rgba(0, 0, 0, 0.20);
     border-radius: 30px;
-    padding-top:20px;
-    padding-bottom: 20px;
+    padding: 20px;
     margin-top: 30px;
     color: #FFF6EC;
     font-size: 15px;
@@ -688,10 +689,6 @@ footer {
         background-color: #ff6000;
     }
     
-    #netherlands-video {
-        display: none;
-    }
-    
 }
 
 @media only screen and (max-width: 395px) {
@@ -715,7 +712,4 @@ footer {
         background-color: #ff6000;
     }
     
-    #netherlands-video {
-        display: none;
-    }
 }
