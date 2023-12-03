@@ -70,6 +70,8 @@
     * Used for the typography for a modern but easy to read design
 10. [RGBA Color Picker](https://rgbacolorpicker.com/)
     * RGBA Color Picker was used to convert the orange hex code to allow me to change the opicity of the header and footer
+11. [Favicon](https://favicon.io/)
+    * Used for the websites favicon
 
 ---
 # Testing
