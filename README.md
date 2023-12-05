@@ -238,16 +238,39 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * Samsung Galaxy S23 Ultra
 
 ## Functional Testing
-| Action                                    | Expected                                | Result                            |
-| ------------------------------------------|-----------------------------------------|-----------------------------------|
-| Load page from URL                        | Page to load                            | Page loads                        |
-| Click play button on Youtube video        | Video to play with all controls working | Video plays and all controls work |
-| Click Rotterdam in nav bar                | Rotterdam page loads                    | Rotterdam page loads as expected  |
-| Use Googlemaps controls on rotterdam.html | All controls work                       | All controls on the map work      |
-| Click Utrecht in nav bar                  | Utrecht page loads                      | Utrecht page loads as expected    |
-| Use Googlemaps controls on utrecht.html   | All controls work                       | All controls on the map work      |
-| Click Dordrecht in nav bar                | Dordrecht page loads                    | Dordrecht page loads as expected  |
-| Use Googlemaps controls on dordrecht.html | All controls work                       | All controls on the map work      |
+| Action                                           | Expected                                | Result                            |
+| -------------------------------------------------|-----------------------------------------|-----------------------------------|
+| Load page from URL                               | Page to load                            | Page loads                           |
+| Click play button on Youtube video               | Video to play with all controls working | Video plays and all controls work    |
+| Click Rotterdam in nav bar                       | Rotterdam page loads                    | Rotterdam page loads as expected     |
+| Use Googlemaps controls on rotterdam.html        | All controls work                       | All controls on the map work         |
+| Click Utrecht in nav bar                         | Utrecht page loads                      | Utrecht page loads as expected       |
+| Use Googlemaps controls on utrecht.html          | All controls work                       | All controls on the map work         |
+| Click Dordrecht in nav bar                       | Dordrecht page loads                    | Dordrecht page loads as expected     |
+| Use Googlemaps controls on dordrecht.html        | All controls work                       | All controls on the map work         |
+| Click Gallery in the nav bar                     | Gallery page loads                      | Gallery page loads                   |
+| Click right and left arrows on rotterdam gallery | Images switch between the three         | Images switch smoothly between the three |
+| Click right and left arrows on utrecht gallery   | Images switch between the three         | Images switch smoothly between the three |
+| Click right and left arrows on dordrecht gallery | Images switch between the three         | Images switch smoothly between the three |
+| Click Contact in the nav bar                     | Contact page to load                    | Contact us page loads                |
+| Fill in all contact boxes and click reset        | Button goes red and form resets         | Button goes red and form resets      |
+| Fill in all contact boxes and click submit       | Button goes green and redirects to submit.html | Button goes green and redirects to submit.html |
+| **Click submit without filling in:**             |                                          |
+| First name                                       | Error message shows                      | Page scrolls up, this clears error message |
+| Last name                                        | Error message shows                      | Page scrolls up, this clears error message |
+| Email                                            | Error message shows                      | Error message shows                  |
+| Age Group                                        | Error message shows                      | Error message shows                  |
+| City visited                                     | Error message shows                      | Error message shows                  |
+| Date visited                                     | Error message shows                      | Error message shows                  |
+| About your experience                            | Error message shows                      | Error message shows                  |
+| Click the envelope icon in the footer            | Redirects to contact page                | Redirects to contact page            |
+| Click on the Facebook icon links in footer       | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
+| Click on the Twitter icon links in footer        | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
+| Click on the Instagram icon links in footer      | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
+| Click all 3 links on the home page in 'why orange' section | Opens links in a new page      | Links open in a new page             |
+| Click all 3 links on rotterdam.html              | Links open in a new page                 | Links open in a new page             |
+| Click all 3 links on utrecht.html                | Links open in a new page                 | Links open in a new page             |
+| Click all 3 links on dordrecht.html              | Links open in a new page                 | Links open in a new page             |
 
 ## Testing User Stories from User Experience (UX)
 * First Time Visitor Goals
