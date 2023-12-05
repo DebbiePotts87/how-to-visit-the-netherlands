@@ -9,7 +9,7 @@ This is a tourist website for The Netherlands which follows an uncommon theme. T
 
 # User Experience (UX)
 
-* ## User Stories
+## User Stories
 * First Time Visitor Goals
     1. As a first time user I would like to gain basic knowledge on the country
     2. As a first time user I want to easily navigate through the website and gain information on cities I may not have heard of
@@ -342,7 +342,7 @@ The project was deployed using Github Pages. To do this you take the following s
     * [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) as a guide for making the responsive navigation bar
 
 * Carousel (Gallery Page)
-* [Bootstrap 5](https://getbootstrap.com/docs/5.3/components/carousel/) was used for the gallery page
+    * [Bootstrap 5](https://getbootstrap.com/docs/5.3/components/carousel/) was used for the gallery page
 
 * [W3 Schools](https://www.w3schools.com/)
     * Used throughout the project to trouble shoot

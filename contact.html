@@ -72,6 +72,7 @@
                 <input id="email-address" name="email-address" type="email" required aria-required="true">
                 <label for="age-group">Age Group</label>
                 <select id="age-groups" aria-label="age-group">
+                  <option value="">--Please choose an option--</option>
                   <option value="15-25">15-25</option>
                   <option value="26-35">26-35</option>
                   <option value="36-45">36-45</option>
@@ -85,6 +86,7 @@
                 <legend><i class="fa fa-globe" aria-hidden="true"></i>  Where you visisted  <i class="fa fa-globe" aria-hidden="true"></i></legend>
                 <label for="city">City</label>
                 <select id="cities" aria-label="city">
+                  <option value="">--Please choose an option--</option>
                   <option value="rotterdam">Rotterdam</option>
                   <option value="utrecht">Utrecht</option>
                   <option value="dordrecht">Dordrecht</option>
@@ -93,7 +95,7 @@
                 <label for="visit-date">When did you visit?</label>
                 <input id="visit-date" name="visit-date" type="date">
                 <label for="your-experience">Tell us about your experience</label>
-                <textarea id="your-experience" name="your-experience" rows="6" cols="40">If you selected other city please tell us where you went.</textarea>
+                <textarea id="your-experience" name="your-experience" rows="6" cols="40" placeholder="If you selected other city please tell us where you went..."></textarea>
               </fieldset>
               <div class="d-grid gap-2 col-4 mx-auto form-button-section">
                 <button id="reset-button" class="btn" type="reset">Reset</button>
