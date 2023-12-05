@@ -64,13 +64,13 @@
             <form class="contact-us-form" method="get" action="/submit.html">
               <fieldset>
                 <legend><i class="fa fa-user" aria-hidden="true"></i> About You <i class="fa fa-user" aria-hidden="true"></i></legend>
-                <label for="first-name">First Name</label>
+                <label for="first-name" class="required">First Name</label>
                 <input id="first-name" name="first-name" type="text" placeholder="First Name" aria-required="true">
-                <label for="last-name">Last Name</label>
+                <label for="last-name" class="required">Last Name</label>
                 <input id="last-name" name="last-name" type="text" placeholder="Last Name" aria-required="true">
-                <label for="email-address">Email Address</label>
+                <label for="email-address" class="required">Email Address</label>
                 <input id="email-address" name="email-address" type="email" aria-required="true">
-                <label for="age-group">Age Group</label>
+                <label for="age-group" class="required">Age Group</label>
                 <select id="age-groups" aria-label="age-group" aria-required="true">
                   <option value="">--Please choose an option--</option>
                   <option value="15-25">15-25</option>
@@ -84,7 +84,7 @@
               </fieldset>
               <fieldset>
                 <legend><i class="fa fa-globe" aria-hidden="true"></i>  Where you visisted  <i class="fa fa-globe" aria-hidden="true"></i></legend>
-                <label for="city">City</label>
+                <label for="city" class="required">City</label>
                 <select id="cities" aria-label="city" aria-required="true">
                   <option value="">--Please choose an option--</option>
                   <option value="rotterdam">Rotterdam</option>
@@ -92,9 +92,9 @@
                   <option value="dordrecht">Dordrecht</option>
                   <option value="other">Other</option>
                 </select>
-                <label for="visit-date">When did you visit?</label>
+                <label for="visit-date" class="required">When did you visit?</label>
                 <input id="visit-date" name="visit-date" type="date" aria-required="true">
-                <label for="your-experience">Tell us about your experience</label>
+                <label for="your-experience" class="required">Tell us about your experience</label>
                 <textarea id="your-experience" name="your-experience" rows="6" cols="40" aria-required="true" placeholder="If you selected other city please tell us where you went..."></textarea>
               </fieldset>
               <div class="d-grid gap-2 col-4 mx-auto form-button-section">

@@ -457,6 +457,11 @@ main {
     margin-bottom: 10px;
 }
 
+.required::after {
+    content: ' *';
+    color: red;
+  }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
