@@ -601,6 +601,10 @@ fieldset legend {
 
 /*----Submit Page----*/
 
+#submit-page-buttons-container {
+    margin-bottom: 30px;
+}
+
 #submit-page-buttons a {
     background-color: #ff6000;
     color: black;
