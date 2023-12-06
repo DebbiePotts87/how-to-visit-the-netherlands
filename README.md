@@ -223,6 +223,11 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 93 Accessibility
         * 100 Best Practices
         * 100 SEO
+    * submit.html
+        * 98 performance
+        * 91 Accessibility
+        * 100 Best Practices
+        * 96 SEO
 
 * Devices used to test
     * Desktop/Laptop
