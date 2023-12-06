@@ -60,6 +60,9 @@ header {
 
 body {
     background-color: #454545;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
@@ -228,6 +231,7 @@ main {
 
 .rotterdam-map-frame {
     overflow: hidden;
+    margin-bottom: 30px;
     padding-bottom: 25%;
     position: relative;
     height: 0;
@@ -323,6 +327,7 @@ main {
 .utrecht-map-frame {
     overflow: hidden;
     padding-bottom: 25%;
+    margin-bottom: 30px;
     position: relative;
     height: 0;
 }
@@ -417,6 +422,7 @@ main {
 .dordrecht-map-frame {
     overflow: hidden;
     padding-bottom: 25%;
+    margin-bottom: 30px;
     position: relative;
     height: 0;
 }
@@ -589,6 +595,10 @@ fieldset legend {
     font-family: "Roboto Condensed", sans-serif;
 }
 
+#last-carousel-container {
+    margin-bottom: 30px;
+}
+
 /*----Submit Page----*/
 
 #submit-page-buttons a {
@@ -631,7 +641,7 @@ fieldset legend {
 
 footer {
     min-height: 60px;
-    margin-top: 30px;
+    margin-top: auto;
     background-color: #ff6000;
 }
 
