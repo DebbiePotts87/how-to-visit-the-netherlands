@@ -11,7 +11,7 @@ This is a tourist website for The Netherlands which follows an uncommon theme. T
 
 ## User Stories
 * First Time Visitor Goals
-    1. As a first time user I would like to gain basic knowledge on the country
+    1. As a first time user I would like to gain basic knowledge of country
     2. As a first time user I want to easily navigate through the website and gain information on cities I may not have heard of
     3. As a first time user I would like a selection of different activities to choose from in each city
     4. As a user I would like an easy to follow map
@@ -31,7 +31,7 @@ This is a tourist website for The Netherlands which follows an uncommon theme. T
 
 ### Strategy
 * What problem the project intends to solve.
-    * Users looking for information on activities and places to eat in The Netherlands are provided with hundreds of websites, however these websites all contain the same information. To find multiple activities that are not the same the user would have to use multiple sites. This website aims to break out of the typical theme for a tourist site for The Netherlads and provide out of the box places to visit, eat and special events.
+    * Users looking for information on activities and places to eat in The Netherlands are provided with hundreds of websites, however these websites all contain the same information. To find multiple activities that are not the same the user would have to use multiple sites. This website aims to break out of the typical theme for a tourist site for The Netherlands and provide out of the box places to visit, eat and special events.
     * User needs.
         * Somewhere to eat
         * Somewhere to visit which isn't a well known tourist attraction
@@ -95,7 +95,7 @@ Further down the line there is the option to branch out and provide information 
 * Interactive Experience
     * Controls on all videos on the website
     * Carousels used for the gallery page for positive typography
-    * Contact.html reset and submit buttons to change colour on hover to help the user visually
+    * contact.html reset and submit buttons to change colour on hover to help the user visually
 
 ### Skeleton
 
@@ -237,6 +237,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
     * Tablet Devices
         * Samsung Galaxy Tab S6
         * Samsung Galaxy Tab A8
+        * ipad Air
 
     * Mobile Devices
         * Samsung Galaxy S21FE
