@@ -16,6 +16,7 @@
     <title>How to Vist The Netherlands</title>
 </head>
 <body id="home-page">
+  <!--Header title-->
     <header class="page-header">
       <div class="container">
         <div class="row g-0 justify-content-between">
@@ -23,6 +24,10 @@
             <h3 class="how-to-title">How To Visit</h3>
             <h1 class="country-title">The Netherlands</h1>
           </div>
+          <!--
+          Navigation section
+          Code snippets taken from Bootstrap 5 documentation
+          -->
           <div class="col-4">
             <nav class="navbar navbar-expand-lg navbar-dark page-navigation-box">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -49,19 +54,20 @@
                     <a class="nav-link nav-text" href="contact.html">Contact</a>
                   </li>
                 </ul>
-              </div>
-              <!-- Snippets of code taken from Bootstrap documentation-->
+              </div>              
             </nav>
           </div>
         </div>
       </div>
     </header>
     <main>
+      <!--Page title-->
       <h1 class="uppercase contact-us-page-title">What do you think?</h1>
       <div class="container">
         <div class="row g-0 align-content-center justify-content-center">
           <div class="col-sm-8 col-md-8 col-lg-6">
             <form class="contact-us-form" method="GET" action="./submit.html">
+              <!--About you form section-->
               <fieldset>
                 <legend><i class="fa fa-user" aria-hidden="true"></i> About You <i class="fa fa-user" aria-hidden="true"></i></legend>
                 <label for="first-name" class="required">First Name</label>
@@ -82,6 +88,7 @@
                   <option value="75+">75+</option>
                 </select>          
               </fieldset>
+              <!--Where you visited form section-->
               <fieldset>
                 <legend><i class="fa fa-globe" aria-hidden="true"></i>  Where you visited  <i class="fa fa-globe" aria-hidden="true"></i></legend>
                 <label for="city" class="required">City</label>
@@ -97,6 +104,7 @@
                 <label for="your-experience" class="required">Tell us about your experience</label>
                 <textarea id="your-experience" name="your-experience" rows="6" cols="40" aria-required="true" placeholder="If you selected other city please tell us where you went..."></textarea>
               </fieldset>
+              <!--Submit and reset button section-->
               <div class="d-grid gap-2 col-4 mx-auto form-button-section">
                 <button id="reset-button" class="btn" type="reset">Reset</button>
                 <button id="submit-button" class="btn" type="submit">Submit</button>
@@ -109,6 +117,7 @@
     <footer class="footer-background">
       <div class="center">
         <div class="row g-0 justify-content-between">
+          <!--Social media links section-->
           <div class="col-4 social-media">
             <ul id="social-media-links">
               <li>
@@ -131,6 +140,7 @@
               </li>
             </ul>
           </div>
+          <!--Contact us footer link section-->
           <div class="col-4" id="contact-us-footer">
             <ul class="contact-us-footer-link">
               <li>

@@ -82,6 +82,7 @@ main {
     height:0;    
 }
 
+/*--Snipped taken from adobe forum--*/
 .youtube-video-homepage iframe {
     left:0;
     top:0;
@@ -89,8 +90,6 @@ main {
     width:100%;
     position:absolute;
 }
-
-/*--Snipped taken from adobe forum--*/
 
 #about-the-netherlands-surround {
     border-color: #ff6000;
@@ -470,6 +469,7 @@ main {
     color: red;
   }
 
+/*--code snippet taken from w3 schools--*/
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -485,8 +485,6 @@ input[type=text], select, textarea {
     border-radius: 4px;
     resize: vertical;
   }
-
-  /*--code snippet taken from w3 schools--*/
 
 .contact-us-form fieldset {
     border: solid;
