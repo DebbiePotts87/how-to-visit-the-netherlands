@@ -100,6 +100,22 @@ main {
     margin-top: 30px;
 }
 
+#about-the-netherlands-title {
+    color: #FFF6EC;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+#why-orange-title {
+    color: #FFF6EC;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
 .about-the-netherlands {
     color: #FFF6EC;
     font-family: "Roboto Condensed", sans-serif;
@@ -122,14 +138,14 @@ main {
         text-align: center;
     }
 
-.why-were-orange-links {
+.why-wear-orange-links {
     list-style-type: none;
     border: none;
     text-decoration: none;
     text-align: center;
 }
 
-.why-were-orange-links li a {
+.why-wear-orange-links li a {
     color: #FFF6EC;
     text-decoration: none;
 }
