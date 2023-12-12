@@ -71,13 +71,13 @@
               <fieldset>
                 <legend><i class="fa fa-user" aria-hidden="true"></i> About You <i class="fa fa-user" aria-hidden="true"></i></legend>
                 <label for="first-name" class="required">First Name</label>
-                <input id="first-name" name="first-name" type="text" placeholder="First Name" aria-required="true">
+                <input id="first-name" name="first-name" type="text" placeholder="First Name" required aria-required="true">
                 <label for="last-name" class="required">Last Name</label>
-                <input id="last-name" name="last-name" type="text" placeholder="Last Name" aria-required="true">
+                <input id="last-name" name="last-name" type="text" placeholder="Last Name" required aria-required="true">
                 <label for="email-address" class="required">Email Address</label>
-                <input id="email-address" name="email-address" type="email" aria-required="true">
+                <input id="email-address" name="email-address" type="email" required aria-required="true">
                 <label for="age-group" class="required">Age Group</label>
-                <select id="age-groups" aria-label="age-group" aria-required="true">
+                <select id="age-groups" aria-label="age-group" required aria-required="true">
                   <option value="">--Please choose an option--</option>
                   <option value="15-25">15-25</option>
                   <option value="26-35">26-35</option>
@@ -92,7 +92,7 @@
               <fieldset>
                 <legend><i class="fa fa-globe" aria-hidden="true"></i>  Where you visited  <i class="fa fa-globe" aria-hidden="true"></i></legend>
                 <label for="city" class="required">City</label>
-                <select id="cities" aria-label="city" aria-required="true">
+                <select id="cities" aria-label="city" required aria-required="true">
                   <option value="">--Please choose an option--</option>
                   <option value="rotterdam">Rotterdam</option>
                   <option value="utrecht">Utrecht</option>
@@ -100,9 +100,9 @@
                   <option value="other">Other</option>
                 </select>
                 <label for="visit-date" class="required">When did you visit?</label>
-                <input id="visit-date" name="visit-date" type="date" aria-required="true">
+                <input id="visit-date" name="visit-date" type="date" required aria-required="true">
                 <label for="your-experience" class="required">Tell us about your experience</label>
-                <textarea id="your-experience" name="your-experience" rows="6" cols="40" aria-required="true" placeholder="If you selected other city please tell us where you went..."></textarea>
+                <textarea id="your-experience" name="your-experience" rows="6" cols="40" required aria-required="true" placeholder="If you selected other city please tell us where you went..."></textarea>
               </fieldset>
               <!--Submit and reset button section-->
               <div class="d-grid gap-2 col-4 mx-auto form-button-section">
