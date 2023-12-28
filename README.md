@@ -201,6 +201,28 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 * Google Dev Tools was used to check responsive design
     * Form input was not responsive
         * [W3 Schools](https://www.w3schools.com/howto/howto_css_responsive_form.asp) guide was used to fix this
+* [Wave](https://wave.webaim.org/report#/https://debbiepotts87.github.io/how-to-visit-the-netherlands/index.html) was used to test the website for any errors.
+    * Homepage
+        * 0 Errors
+        * 0 Contrast Errors
+    * Rotterdam
+        * 0 Errors
+        * 0 Contrast Errors
+    * Utrecht
+        * 0 Errors
+        * 0 Contrast Errors
+    * Dordretcht
+        * 0 Errors
+        * 0 Contrast Errors
+    * Contact
+        * 0 Errors
+        * 0 Contrast Errors
+    * Submit
+        * 0 Errors
+        * 0 Contrast Errors
+    * 404
+        * 0 Errors
+        * 0 Contrast Errors
 
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to check performance
     * index.html
