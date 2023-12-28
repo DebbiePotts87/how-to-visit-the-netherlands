@@ -657,6 +657,41 @@ fieldset legend {
     font-family: "Roboto Condensed", sans-serif;
 }
 
+/*----404 Page----*/
+
+#error-page-buttons-container {
+    margin-bottom: 30px;
+}
+
+#error-page-buttons a {
+    background-color: #ff6000;
+    color: black;
+    border: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#error-title-section h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffe6c7;
+    font-size: 80px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#error-title-section h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffe6c7;
+    font-size: 35px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
 /*------------------------------Footer------------------------------*/
 
 footer {
