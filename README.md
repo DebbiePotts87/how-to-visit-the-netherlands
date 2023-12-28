@@ -206,6 +206,7 @@ Further down the line there is the option to branch out and provide information 
 
 ## Languages Used
 [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
 [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks, Libraries & Programs Used
@@ -236,6 +237,7 @@ Further down the line there is the option to branch out and provide information 
 
 ---
 # Testing
+Testing was carried out throughout the project with the use of both [Google DevTools](https://developer.chrome.com/docs/devtools) and by watching live changes using [Visual Studio Code Live Server extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
 
 ### W3C Validators
 The W3C Markup Validator and the W3C CSS Validator were used to validate the code and ensure that there were no syntax errors in the project. No errors were found.
@@ -483,7 +485,47 @@ The project was deployed using Github Pages. To do this you take the following s
     * Used to show a city map on each city page
 
 * [Google Images](https://www.google.com/imghp?hl=en)
-    * Used to source images for the gallery page
+    * Used to source images for the gallery and 404 page
+    <details>
+        <summary>Rotterdam Gallery Carousel</summary>
+
+    1. Cube House
+        * [The Times Travel](https://www.thetimes.co.uk/travel/destinations/europe/netherlands/rotterdam/best-things-to-do-in-rotterdam)
+    3. Rotterdam Market
+        * [Shutter Stock](https://www.shutterstock.com/search/rotterdam-market)
+    4. Willemswerf
+        * [Vandkraft](https://www.vandkraft.eu/willemswerf-2/)
+    </details>
+
+    <details>
+        <summary>Utrecht Gallery Carousel</summary>
+
+    1. Dom Tower
+        * [Holland.com](https://www.holland.com/be_nl/toerisme/ontdek-nederland/bezoek-de-steden/utrecht.htm)
+    3. Winter Market
+        * [Parenting Daily](https://www.theparentingdaily.co.uk/article/2021/10/18/efteling-prepares-transform-winter-wonderland-23rd-seasonal-edition)
+    4. Utrecht Castle
+        * [DFDS Ferries](https://www.dfds.com/en-gb/passenger-ferries/destinations/holland/utrecht)
+    </details>
+
+    <details>
+        <summary>Dordrecht Gallery Carousel</summary>
+
+    1. Grote Kerk
+        * [Flickr](https://www.flickr.com/photos/hollandfotograaf/49351755278)
+    3. Dordtevaar
+        * [Destroper.nl](https://www.destroper.nl/rondvaart-de-dordtevaar/)
+    4. High Street
+        * [Holland.com](https://www.holland.com/global/tourism/discover-the-netherlands/visit-the-cities/dordrecht.htm)
+    </details>
+
+    <details>
+        <summary>404 Page</summary>
+
+    * Stroopwafel
+        * [PNG Tree](https://pngtree.com/so/stroopwafel)
+    </details>
+    
 
 ## Acknowledgements
 * My mentor for all of his help and support during this project
