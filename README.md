@@ -185,9 +185,30 @@ Further down the line there is the option to branch out and provide information 
         * Imagery has been kept minimul on the informative pages to save distraction from the information. To support the information provided on the website a gallery page has been provided.
 
 * ## Wireframes
-    * Mobile Wireframe - [Link](assets/doumentation/mobile-homepage-wireframe.png)
-    * Tablet Wireframe - [Link](assets/doumentation/tablet-wireframe-home.png)
-    * Desktop Wireframe - [Link](assets/doumentation/desktop-homepage-wireframe.png)
+
+<details>
+    <summary>Mobile Wireframe</summary>
+
+![Image](assets/doumentation/mobile-homepage-wireframe.png)
+
+</details>
+<br>
+<details>
+    <summary>Tablet Wireframe</summary>
+
+![Image](assets/doumentation/tablet-wireframe-home.png)
+
+</details>
+<br>
+<details>
+    <summary>Desktop Wireframe</summary>
+    
+[Full PDF Wireframe](assets/doumentation/desktop-wireframe.pdf)
+
+![Image](assets/doumentation/desktop-homepage-wireframe.png)
+
+</details>
+<br>
 
 ---
 # Features
@@ -308,56 +329,220 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 95 SEO
 
 ### Devices used to test
-    * Desktop/Laptop
-        * 16" laptop
-        * 32" widescreen monitor
+* Desktop/Laptop
+     * 16" laptop
+    * 32" widescreen monitor
 
-    * Tablet Devices
-        * Samsung Galaxy Tab S6
-        * Samsung Galaxy Tab A8
-        * ipad Air
+ * Tablet Devices
+     * Samsung Galaxy Tab S6
+     * Samsung Galaxy Tab A8
+     * ipad Air
 
-    * Mobile Devices
-        * Samsung Galaxy S21FE
-        * Samsung Galaxy S23 Ultra
+ * Mobile Devices
+     * Samsung Galaxy S21FE
+     * Samsung Galaxy S23 Ultra
 
 ### Functional Testing
+
+<details>
+    <summary>On Page Load</summary>
+
 | Action                                           | Expected                                | Result                            |
 | -------------------------------------------------|-----------------------------------------|-----------------------------------|
-| Load page from URL                               | Page to load                            | Page loads                           |
-| Click play button on Youtube video               | Video to play with all controls working | Video plays and all controls work    |
-| Click Rotterdam in nav bar                       | Rotterdam page loads                    | Rotterdam page loads as expected     |
-| Use Googlemaps controls on rotterdam.html        | All controls work                       | All controls on the map work         |
-| Click Utrecht in nav bar                         | Utrecht page loads                      | Utrecht page loads as expected       |
-| Use Googlemaps controls on utrecht.html          | All controls work                       | All controls on the map work         |
-| Click Dordrecht in nav bar                       | Dordrecht page loads                    | Dordrecht page loads as expected     |
-| Use Googlemaps controls on dordrecht.html        | All controls work                       | All controls on the map work         |
-| Click Gallery in the nav bar                     | Gallery page loads                      | Gallery page loads                   |
-| Click right and left arrows on rotterdam gallery | Images switch between the three         | Images switch smoothly between the three |
-| Click right and left arrows on utrecht gallery   | Images switch between the three         | Images switch smoothly between the three |
-| Click right and left arrows on dordrecht gallery | Images switch between the three         | Images switch smoothly between the three |
-| Click Contact in the nav bar                     | Contact page to load                    | Contact us page loads                |
-| Fill in all contact boxes and click reset        | Button goes red and form resets         | Button goes red and form resets      |
-| Fill in all contact boxes and click submit       | Button goes green and redirects to submit.html | Button goes green and redirects to submit.html |
-| **Click submit without filling in:**             |                                          |
-| First name                                       | Error message shows                      | Page scrolls up, this clears error message |
-| Last name                                        | Error message shows                      | Page scrolls up, this clears error message |
-| Email                                            | Error message shows                      | Error message shows                  |
-| Age Group                                        | Error message shows                      | Error message shows                  |
-| City visited                                     | Error message shows                      | Error message shows                  |
-| Date visited                                     | Error message shows                      | Error message shows                  |
-| About your experience                            | Error message shows                      | Error message shows                  |
+| Load page from URL                               | Page to load                            | Page loads                        |
+</details>
+<br>
+<details>
+    <summary>index.html</summary>
+
+| Action                                           | Expected                                 | Result                               |
+| -------------------------------------------------|------------------------------------------|--------------------------------------|
+| Load page                                        | Page to load                             | Page loads                           |
+| On page load                                     | Youtube video remains paused             | Youtube video remains paused         |
+| Click play button on Youtube video               | Video to play with all controls working  | Video plays and all controls work    |
+| Click link to Youtube channel                    | Youtube channel loads in new page        | Youtube channel loads in new page    |
+| Click Netherlands Insiders in Why Orange Section | Page opens in new window                 | Page opens in new window             |
+| Click Dutch Amsterdam in Why Orange section      | Page opens in new window                 | Page opens in new window             |
+| Click Rotterdam in nav bar                       | Rotterdam page loads                     | Rotterdam page loads as expected     |
+| Click Utrecht in nav bar                         | Utrecht page loads                       | Utrecht page loads as expected       |
+| Click Dordrecht in nav bar                       | Dordrecht page loads                     | Dordrecht page loads as expected     |
+| Click Contact in the nav bar                     | Contact page to load                     | Contact us page loads                |
+| Click Gallery in the nav bar                     | Gallery page to load                     | Gallery page loads                   |
 | Click the envelope icon in the footer            | Redirects to contact page                | Redirects to contact page            |
 | Click on the Facebook icon links in footer       | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
 | Click on the Twitter icon links in footer        | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
 | Click on the Instagram icon links in footer      | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
-| Click all 3 links on the home page in 'why orange' section | Opens links in a new page      | Links open in a new page             |
-| Click all 3 links on rotterdam.html              | Links open in a new page                 | Links open in a new page             |
-| Click all 3 links on utrecht.html                | Links open in a new page                 | Links open in a new page             |
-| Click all 3 links on dordrecht.html              | Links open in a new page                 | Links open in a new page             |
-| Click home button on submit.html                 | Navigates back to homepage               | Navigates back to homepage           |
-| Click gallery button on submit.html              | Navigates to gallery page                | Navigates to gallery page            |
-| Click home button on 404.html                    | Navigates back to homepage               | Navigates back to homepage           |
+</details>  
+<br>
+<details>
+    <summary>rotterdam.html</summary>
+
+| Action                                             | Expected                                 | Result                               |
+| ---------------------------------------------------|------------------------------------------|--------------------------------------|
+| Load page                                          | Page to load                             | Page loads                           |
+| Click Dionysos in where to eat section             | Page opens in new window                 | Page opens in new window             |
+| Click Baroeg Open Air in what not to miss section  | Page opens in new window                 | Page opens in new window             |
+| Click Willemswerf in where to visit section        | Page opens in new window                 | Page opens in new window             |
+| Use Google map controls                            | Zoom in, out, click and drag to navigate | Zoom in, out, click and drag to navigate |
+| Click view larger map on Google maps               | Opens map in new page                    | Opens map in new page                |
+| Click Home in nav bar                              | Home page loads                          | Home page loads as expected          |
+| Click Utrecht in nav bar                           | Utrecht page loads                       | Utrecht page loads as expected       |
+| Click Dordrecht in nav bar                         | Dordrecht page loads                     | Dordrecht page loads as expected     |
+| Click Gallery in nav bar                           | Gallery page loads                       | Gallery page loads as expected       |
+| Click Contact in the nav bar                       | Contact page to load                     | Contact us page loads                |
+| Click the envelope icon in the footer              | Redirects to contact page                | Redirects to contact page            |
+| Click on the Facebook icon links in footer         | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
+| Click on the Twitter icon links in footer          | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
+| Click on the Instagram icon links in footer        | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
+</details>  
+<br>
+<details>
+    <summary>utrecht.html</summary>
+
+| Action                                             | Expected                                 | Result                               |
+| ---------------------------------------------------|------------------------------------------|--------------------------------------|
+| Load page                                          | Page to load                             | Page loads                           |
+| Click Hofman in where to eat section               | Page opens in new window                 | Page opens in new window             |
+| Click Winter Market in what not to miss section    | Page opens in new window                 | Page opens in new window             |
+| Click Dom Tower in where to visit section          | Page opens in new window                 | Page opens in new window             |
+| Use Google map controls                            | Zoom in, out, click and drag to navigate | Zoom in, out, click and drag to navigate |
+| Click view larger map on Google maps               | Opens map in new page                    | Opens map in new page                |
+| Click Home in nav bar                              | Home page loads                          | Home page loads as expected          |
+| Click Rotterdam in nav bar                         | Rotterdam page loads                     | Rotterdam page loads as expected     |
+| Click Dordrecht in nav bar                         | Dordrecht page loads                     | Dordrecht page loads as expected     |
+| Click Gallery in nav bar                           | Gallery page loads                       | Gallery page loads as expected       |
+| Click Contact in the nav bar                       | Contact page to load                     | Contact us page loads                |
+| Click the envelope icon in the footer              | Redirects to contact page                | Redirects to contact page            |
+| Click on the Facebook icon links in footer         | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
+| Click on the Twitter icon links in footer          | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
+| Click on the Instagram icon links in footer        | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
+</details>  
+<br>
+<details>
+    <summary>dordrecht.html</summary>
+
+| Action                                             | Expected                                 | Result                               |
+| ---------------------------------------------------|------------------------------------------|--------------------------------------|
+| Load page                                          | Page to load                             | Page loads                           |
+| Click La Cubanita in where to eat section          | Page opens in new window                 | Page opens in new window             |
+| Click Dordtevaar in what not to miss section       | Page opens in new window                 | Page opens in new window             |
+| Click Grote Kerk in where to visit section         | Page opens in new window                 | Page opens in new window             |
+| Use Google map controls                            | Zoom in, out, click and drag to navigate | Zoom in, out, click and drag to navigate |
+| Click view larger map on Google maps               | Opens map in new page                    | Opens map in new page                |
+| Click Home in nav bar                              | Home page loads                          | Home page loads as expected          |
+| Click Rotterdam in nav bar                         | Rotterdam page loads                     | Rotterdam page loads as expected     |
+| Click Utrecht in nav bar                           | Utrecht page loads                       | Utrecht page loads as expected       |
+| Click Gallery in nav bar                           | Gallery page loads                       | Gallery page loads as expected       |
+| Click Contact in the nav bar                       | Contact page to load                     | Contact us page loads                |
+| Click the envelope icon in the footer              | Redirects to contact page                | Redirects to contact page            |
+| Click on the Facebook icon links in footer         | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
+| Click on the Twitter icon links in footer          | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
+| Click on the Instagram icon links in footer        | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
+</details>  
+<br>
+<details>
+    <summary>gallery.html</summary>
+
+| Action                                             | Expected                                 | Result                               |
+| ---------------------------------------------------|------------------------------------------|--------------------------------------|
+| Load page                                          | Page to load                             | Page loads                           |
+| Click Home in nav bar                              | Home page loads                          | Home page loads as expected          |
+| Click Rotterdam in nav bar                         | Rotterdam page loads                     | Rotterdam page loads as expected     |
+| Click Utrecht in nav bar                           | Utrecht page loads                       | Utrecht page loads as expected       |
+| Click Dordrecht in nav bar                         | Dordrecht page loads                     | Dordrecht page loads as expected     |
+| Click Contact in the nav bar                       | Contact page to load                     | Contact us page loads                |
+| Click right and left arrows on rotterdam gallery   | Images switch between the three          | Images switch smoothly between the three |
+| Click right and left arrows on utrecht gallery     | Images switch between the three          | Images switch smoothly between the three |
+| Click right and left arrows on dordrecht gallery   | Images switch between the three          | Images switch smoothly between the three |
+| Click the envelope icon in the footer              | Redirects to contact page                | Redirects to contact page            |
+| Click on the Facebook icon links in footer         | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
+| Click on the Twitter icon links in footer          | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
+| Click on the Instagram icon links in footer        | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
+</details>  
+<br>
+<details>
+    <summary>contact.html</summary>
+
+### Page Functions
+| Action                                             | Expected                                 | Result                               |
+| ---------------------------------------------------|------------------------------------------|--------------------------------------|
+| Load page                                          | Page to load                             | Page loads                           |
+| Click Home in nav bar                              | Home page loads                          | Home page loads as expected          |
+| Click Rotterdam in nav bar                         | Rotterdam page loads                     | Rotterdam page loads as expected     |
+| Click Utrecht in nav bar                           | Utrecht page loads                       | Utrecht page loads as expected       |
+| Click Dordrecht in nav bar                         | Dordrecht page loads                     | Dordrecht page loads as expected     |
+| Click Gallery in the nav bar                       | Gallery page to load                     | Gallery page loads                   |
+| Click the envelope icon in the footer              | Redirects to contact page                | Redirects to contact page            |
+| Click on the Facebook icon links in footer         | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
+| Click on the Twitter icon links in footer          | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
+| Click on the Instagram icon links in footer        | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
+
+### Form Functions
+**When boxes are filled in:**
+| Action                                    | Expected                                    | Result                                     |
+| ------------------------------------------|---------------------------------------------|--------------------------------------------|
+| First name                                | Box filled and allows to submit             | Box filled and allows to submit            |
+| Last name                                 | Box filled and allows to submit             | Box filled and allows to submit            |
+| Email                                     | Box filled and allows to submit             | Box filled and allows to submit            |
+| Age Group                                 | Drop down menu works and allows to submit   | Drop down menu works and allows to submit  |
+| City visited                              | Drop down menu works and allows to submit   | Drop down menu works and allows to submit  |
+| Date visited                              | Calendar works and allows to submit         | Calendar works and allows to submit        |
+| About your experience                     | Box filled and allows to submit             | Box filled and allows to submit            |
+| Hover over reset button                   | Reset button turns red                      | Reset button turns red                     |
+| Hover over submit button                  | Submit button turns green                   | Submit button turns green                  |
+| Click reset button                        | Resets form                                 | Form resets                                |
+| Click submit button                       | Form submits and redirects to submit.html   | Form submits and redirects to submit.html  |
+
+**On clicking submit when boxes are not filled in:**
+| Action                                    | Expected                                 | Result                                     |
+| ------------------------------------------|------------------------------------------|--------------------------------------------|
+| First name                                | Error message shows                      | Page scrolls up, this clears error message |
+| Last name                                 | Error message shows                      | Page scrolls up, this clears error message |
+| Email                                     | Error message shows                      | Error message shows                        |
+| Age Group                                 | Error message shows                      | Error message shows                        |
+| City visited                              | Error message shows                      | Error message shows                        |
+| Date visited                              | Error message shows                      | Error message shows                        |
+| About your experience                     | Error message shows                      | Error message shows                        |
+</details>  
+<br>
+<details>
+    <summary>submit.html</summary>
+
+| Action                                             | Expected                                 | Result                               |
+| ---------------------------------------------------|------------------------------------------|--------------------------------------|
+| Load page                                          | Page to load                             | Page loads                           |
+| Click Home in nav bar                              | Home page loads                          | Home page loads as expected          |
+| Click Rotterdam in nav bar                         | Rotterdam page loads                     | Rotterdam page loads as expected     |
+| Click Utrecht in nav bar                           | Utrecht page loads                       | Utrecht page loads as expected       |
+| Click Dordrecht in nav bar                         | Dordrecht page loads                     | Dordrecht page loads as expected     |
+| Click Gallery in the nav bar                       | Gallery page to load                     | Gallery page loads                   |
+| Click Contact in the nav bar                       | Contact page to load                     | Contact us page loads                |
+| Click Home button                                  | Home page to load                        | Home page loads                      |
+| Click Gallery button                               | Gallery page to load                     | Gallery page loads                   |
+| Click the envelope icon in the footer              | Redirects to contact page                | Redirects to contact page            |
+| Click on the Facebook icon links in footer         | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
+| Click on the Twitter icon links in footer          | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
+| Click on the Instagram icon links in footer        | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
+</details>  
+<br>
+<details>
+    <summary>404.html</summary>
+
+| Action                                             | Expected                                 | Result                               |
+| ---------------------------------------------------|------------------------------------------|--------------------------------------|
+| Load page                                          | Page to load                             | Page loads                           |
+| Click Home in nav bar                              | Home page loads                          | Home page loads as expected          |
+| Click Rotterdam in nav bar                         | Rotterdam page loads                     | Rotterdam page loads as expected     |
+| Click Utrecht in nav bar                           | Utrecht page loads                       | Utrecht page loads as expected       |
+| Click Dordrecht in nav bar                         | Dordrecht page loads                     | Dordrecht page loads as expected     |
+| Click Gallery in the nav bar                       | Gallery page to load                     | Gallery page loads                   |
+| Click Contact in the nav bar                       | Contact page to load                     | Contact us page loads                |
+| Click Home button                                  | Home page to load                        | Home page loads                      |
+| Click the envelope icon in the footer              | Redirects to contact page                | Redirects to contact page            |
+| Click on the Facebook icon links in footer         | Redirects to Facebook in a new page      | Redirects to Facebook in a new page  |
+| Click on the Twitter icon links in footer          | Redirects to Twitter in a new page       | Redirects to Twitter in a new page   |
+| Click on the Instagram icon links in footer        | Redirects to Instagram in a new page     | Redirects to Instagram in a new page |
+</details>
 
 ## Testing User Stories from User Experience (UX)
 * First Time Visitor Goals
