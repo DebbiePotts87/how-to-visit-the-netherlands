@@ -228,6 +228,11 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 91 Accessibility
         * 100 Best Practices
         * 96 SEO
+    * 404.html
+        * 95 performance
+        * 92 Accessibility
+        * 100 Best Practices
+        * 95 SEO
 
 * Devices used to test
     * Desktop/Laptop
@@ -277,6 +282,9 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
 | Click all 3 links on rotterdam.html              | Links open in a new page                 | Links open in a new page             |
 | Click all 3 links on utrecht.html                | Links open in a new page                 | Links open in a new page             |
 | Click all 3 links on dordrecht.html              | Links open in a new page                 | Links open in a new page             |
+| Click home button on submit.html                 | Navigates back to homepage               | Navigates back to homepage           |
+| Click gallery button on submit.html              | Navigates to gallery page                | Navigates to gallery page            |
+| Click home button on 404.html                    | Navigates back to homepage               | Navigates back to homepage           |
 
 ## Testing User Stories from User Experience (UX)
 * First Time Visitor Goals
