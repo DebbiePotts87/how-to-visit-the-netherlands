@@ -7,6 +7,43 @@ This is a tourist website for The Netherlands which follows an uncommon theme. T
 
 ![mockup](assets/doumentation/mockup.png)
 
+## Tablet of Content
+
+1. [User Experience](#user-experience)
+    1. [User Stories](#user-stories)
+    2. [5 Planes of UX Design](#5-planes-of-ux-design)
+        1. [Strategy](#strategy)
+        2. [Scope](#scope)
+        3. [Structure](#structure)
+        4. [Skeleton](#skeleton)
+        5. [Surface](#surface)
+    3. [Design](#design)
+    4. [Wireframes](#wireframes)
+2. [Features](#features)
+3. [Technology Used](#technology-used)
+    1. [Languages Used](#languages-used)
+     2. [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+4. [Testing](#testing)
+    1. [W3C Validators](#w3c-validators)
+    2. [Google Dev Tools](#google-dev-tools)
+    3. [Wave](#wave)
+    4. [Lighthouse](#lighthouse)
+    5. [Functional Testing](#functional-testing)
+    6. [Devices used to test](#devices-used-to-test)
+    7. [Testing User Stories from User Experience (UX)](#testing-user-stories-from-user-experience-ux)
+5. [Bugs](#bugs)
+    1. [Known Bugs](#known-bugs)
+    2. [Fixed Bugs](#fixed-bugs)
+6. [Deployment](#deployment)
+    1. [Github Pages](#github-pages)
+    2. [Making a Local Clone](#making-a-local-clone)
+7. [Credits](#credits)
+    1. [Code](#code)
+    2. [Content](#content)
+    3. [Media](#media)
+    4. [Acknowledgements](#acknowledgements)
+
+
 # User Experience (UX)
 
 ## User Stories
@@ -156,6 +193,13 @@ Further down the line there is the option to branch out and provide information 
 # Features
 
 * Responsive on all devices
+* Hamburg menu for mobile and tablet sized screens
+* Carousel on gallery page to appear less cluttered to contain a useful amount of content
+* Contact form submit button turns green on hover and reset button turns red on hover to make them more user friendly
+* Links to recommended venues and events
+* Google maps embedded to the site
+* Contact form submit page containing information on the next update to keep users coming back
+* Custom 404 page to make navigation easier for users
 
 ---
 # Technology Used
@@ -193,14 +237,18 @@ Further down the line there is the option to branch out and provide information 
 ---
 # Testing
 
+### W3C Validators
 The W3C Markup Validator and the W3C CSS Validator were used to validate the code and ensure that there were no syntax errors in the project. No errors were found.
 
 * [W3C Markup Validator](https://validator.w3.org/)
 * [W3C CSS Validator](https://validator.w3.org/)
 
+### Google Dev Tools
 * Google Dev Tools was used to check responsive design
     * Form input was not responsive
         * [W3 Schools](https://www.w3schools.com/howto/howto_css_responsive_form.asp) guide was used to fix this
+
+### Wave
 * [Wave](https://wave.webaim.org/report#/https://debbiepotts87.github.io/how-to-visit-the-netherlands/index.html) was used to test the website for any errors.
     * Homepage
         * 0 Errors
@@ -224,6 +272,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 0 Errors
         * 0 Contrast Errors
 
+### Lighthouse
 * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to check performance
     * index.html
         * 95 performance
@@ -256,7 +305,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 100 Best Practices
         * 95 SEO
 
-* Devices used to test
+### Devices used to test
     * Desktop/Laptop
         * 16" laptop
         * 32" widescreen monitor
@@ -270,7 +319,7 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * Samsung Galaxy S21FE
         * Samsung Galaxy S23 Ultra
 
-## Functional Testing
+### Functional Testing
 | Action                                           | Expected                                | Result                            |
 | -------------------------------------------------|-----------------------------------------|-----------------------------------|
 | Load page from URL                               | Page to load                            | Page loads                           |
