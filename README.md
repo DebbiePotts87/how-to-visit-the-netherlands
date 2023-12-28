@@ -186,8 +186,12 @@ Further down the line there is the option to branch out and provide information 
 
 * ## Wireframes
 
+Wireframes were created using [Balsamiq](https://balsamiq.com/)
+
 <details>
     <summary>Mobile Wireframe</summary>
+
+**[Full mobile PDF wireframe collection](assets/doumentation/mobile-wireframe-collection.pdf)**
 
 ![Image](assets/doumentation/mobile-homepage-wireframe.png)
 
@@ -196,14 +200,16 @@ Further down the line there is the option to branch out and provide information 
 <details>
     <summary>Tablet Wireframe</summary>
 
+**[Full tablet PDF wireframe collection](assets/doumentation/tablet-wireframe-collection.pdf)**
+
 ![Image](assets/doumentation/tablet-wireframe-home.png)
 
 </details>
 <br>
 <details>
     <summary>Desktop Wireframe</summary>
-    
-[Full PDF Wireframe](assets/doumentation/desktop-wireframe.pdf)
+
+**[Full desktop PDF wireframe collection](assets/doumentation/desktop-wireframe-collection.pdf)**
 
 ![Image](assets/doumentation/desktop-homepage-wireframe.png)
 
@@ -296,37 +302,175 @@ The W3C Markup Validator and the W3C CSS Validator were used to validate the cod
         * 0 Contrast Errors
 
 ### Lighthouse
-* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to check performance
-    * index.html
-        * 95 performance
-        * 90 Accessibility
-        * 95 Best Practices
-        * 100 SEO
-    * rotterdam.html, utrecht.html and dordretcht.html
-        * 98 performance
-        * 90 Accessibility
-        * 95 Best Practices
-        * 100 SEO
-    * gallery.html
-        * 73 performance
-        * 92 Accessibility
-        * 100 Best Practices
-        * 100 SEO
-    * contact.html
-        * 97 performance
-        * 93 Accessibility
-        * 100 Best Practices
-        * 100 SEO
-    * submit.html
-        * 98 performance
-        * 91 Accessibility
-        * 100 Best Practices
-        * 96 SEO
-    * 404.html
-        * 95 performance
-        * 92 Accessibility
-        * 100 Best Practices
-        * 95 SEO
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to check performance
+
+<details>
+    <summary>index.html</summary>
+ <details>
+     <summary>Mobile</summary>
+
+* 98 performance
+* 90 Accessibility
+* 95 Best Practices
+* 100 SEO
+</details>
+<br>
+ <details>
+     <summary>Desktop</summary>
+
+* 98 performance
+* 100 Accessibility
+* 95 Best Practices
+* 100 SEO
+</details>
+</details>
+<br>
+<details>
+    <summary>rotterdam.html</summary>
+ <details>
+     <summary>Mobile</summary>
+
+* 98 performance
+* 90 Accessibility
+* 95 Best Practices
+* 100 SEO
+</details>
+<br>
+ <details>
+     <summary>Desktop</summary>
+
+* 98 performance
+* 100 Accessibility
+* 95 Best Practices
+* 100 SEO
+</details>
+</details>
+<br>
+<details>
+    <summary>utrecht.html</summary>
+ <details>
+     <summary>Mobile</summary>
+
+* 98 performance
+* 90 Accessibility
+* 95 Best Practices
+* 100 SEO
+</details>
+<br>
+ <details>
+     <summary>Desktop</summary>
+
+* 98 performance
+* 100 Accessibility
+* 95 Best Practices
+* 100 SEO
+</details>
+</details>
+<br>
+<details>
+    <summary>dordretcht.html</summary>
+ <details>
+     <summary>Mobile</summary>
+
+* 98 performance
+* 90 Accessibility
+* 95 Best Practices
+* 100 SEO
+</details>
+<br>
+ <details>
+     <summary>Desktop</summary>
+
+* 98 performance
+* 100 Accessibility
+* 95 Best Practices
+* 100 SEO
+</details>
+</details>
+<br>
+<details>
+    <summary>gallery.html</summary>
+ <details>
+     <summary>Mobile</summary>
+
+* 73 performance
+* 92 Accessibility
+* 100 Best Practices
+* 100 SEO
+</details>
+<br>
+ <details>
+     <summary>Desktop</summary>
+
+* 80 performance
+* 100 Accessibility
+* 100 Best Practices
+* 100 SEO
+</details>
+</details>
+<br>
+<details>
+    <summary>contact.html</summary>
+ <details>
+     <summary>Mobile</summary>
+
+* 97 performance
+* 100 Accessibility
+* 100 Best Practices
+* 100 SEO
+</details>
+<br>
+ <details>
+     <summary>Desktop</summary>
+
+* 100 performance
+* 100 Accessibility
+* 100 Best Practices
+* 100 SEO
+</details>
+</details>
+<br>
+<details>
+    <summary>submit.html</summary>
+ <details>
+     <summary>Mobile</summary>
+
+* 98 performance
+* 91 Accessibility
+* 100 Best Practices
+* 96 SEO
+</details>
+<br>
+ <details>
+     <summary>Desktop</summary>
+
+* 98 performance
+* 100 Accessibility
+* 100 Best Practices
+* 96 SEO
+</details>
+</details>
+<br>
+<details>
+    <summary>404.html</summary>
+ <details>
+     <summary>Mobile</summary>
+
+* 97 performance
+* 100 Accessibility
+* 100 Best Practices
+* 95 SEO
+</details>
+<br>
+ <details>
+     <summary>Desktop</summary>
+
+* 98 performance
+* 100 Accessibility
+* 100 Best Practices
+* 100 SEO
+</details>
+</details>
 
 ### Devices used to test
 * Desktop/Laptop
