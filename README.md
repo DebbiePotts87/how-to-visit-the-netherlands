@@ -268,7 +268,20 @@ Testing was carried out throughout the project with the use of both [Google DevT
 The W3C Markup Validator and the W3C CSS Validator were used to validate the code and ensure that there were no syntax errors in the project. No errors were found.
 
 * [W3C Markup Validator](https://validator.w3.org/)
+ <details>
+     <summary>Results</summary>
+    
+![Image](assets/doumentation/html-validator.PNG)
+
+</details>
+
 * [W3C CSS Validator](https://validator.w3.org/)
+ <details>
+     <summary>Results</summary>
+     
+![Image](assets/doumentation/css-validator.PNG)
+
+</details>
 
 ### Google Dev Tools
 * Google Dev Tools was used to check responsive design
